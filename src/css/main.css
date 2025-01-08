@@ -12,3 +12,71 @@ img,
 video {
   display: block;
 }
+
+body {
+  font-family: "Roboto";
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.dialog {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  display: flex;
+  padding: 457px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  align-self: stretch;
+}
+
+.dialog-inner {
+  display: flex;
+  width: 420px;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+}
+.dialog-inner h2 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  text-transform: uppercase;
+}
+
+.button-primary {
+  border-radius: 3px;
+  background: #1867c0;
+  box-shadow: 2px 2px 2px -1px rgba(24, 103, 192, 0.25);
+  color: #fff;
+  letter-spacing: 0.84px;
+  text-transform: uppercase;
+  display: flex;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+}
